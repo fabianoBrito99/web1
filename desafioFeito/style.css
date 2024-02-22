@@ -1,0 +1,95 @@
+body{
+  font-family: "young serif";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+h1{
+  font-size: 4rem;
+}
+.negrito{
+  font-weight: 700;
+}
+h2{
+  color:   hsl(14, 45%, 36%);
+}
+
+.fundo{
+  padding: 100px;
+  background: hsl(330, 100%, 98%);
+ 
+}
+.branco{
+  background:hsl(0, 0%, 100%) ;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+ 
+}
+
+.branco img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.preparo{
+  background: hsl(330, 100%, 98%) ;
+  border-radius: 5px;
+ padding: 3px;
+ padding-left: 20px;
+}
+.preparo h3{
+  color:  hsl(332, 51%, 32%);
+}
+.preparacao{
+  padding: 0px;
+}
+.instrucoes{
+  border-top:1px solid hsl(24, 5%, 18%) ;
+  border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+
+table {
+  width:  100%;
+  border-collapse: collapse;
+}
+th, td{
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+tr:last-child td {
+  border-bottom: none; 
+}
+th{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+
+tr:nth-child(odd){
+background-color: #f2f2f2;
+}
+
+.corNuticao{
+  color: hsl(14, 45%, 36%);
+}
+
+@media(max-width:600px){
+  .fundo{
+    padding: 0;
+  }
+  .branco{
+    border-radius: 0px;
+  }
+}
+@media(max-width:800px){
+h1{
+  font-size: 2rem;
+}
+}
+
+
+
+
