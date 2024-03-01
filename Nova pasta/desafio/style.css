@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+html{
+    background-image: url(../programacao_web_I/Aula_4/secao_de_prova_social/images/bg-pattern-top-desktop.svg),url(../programacao_web_I/Aula_4/secao_de_prova_social/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat no-repeat;
+  
+
+}
+.topo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.comentarios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.comentarios .card {
+   
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    background:hsl(300, 43%, 22%);
+    border-radius: 10px;
+
+}
+
+.comentarios img{
+   border-radius:50%;
+
+}
+
+.card div{
+    display: flex;
+    padding: 20px;
+}
+
+
+.estrelas div{
+    background-color: yellowgreen;
+}
